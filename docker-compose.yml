@@ -44,7 +44,7 @@ services:
         max-size: "400k"
         max-file: "20"
   cardano-db-sync-extended:
-    image: rhyslbw/cardano-db-sync:${CARDANO_DB_SYNC_VERSION:-0935886773eca22ed91a8cdf0cdc628878be3c61}
+    image: rhyslbw/cardano-db-sync:${CARDANO_DB_SYNC_VERSION:-6187081a7ea66954c86094578bd37e01bca8aaec}
     command: [
       "--config", "/config/cardano-db-sync/config.json",
       "--socket-path", "/node-ipc/node.socket",
